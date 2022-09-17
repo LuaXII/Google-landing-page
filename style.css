@@ -1,5 +1,8 @@
-html {
+body {
     margin: 0;
+}
+
+html {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
@@ -35,7 +38,7 @@ ul > a, ul > img, ul > button {
 }
 
 .gapps:hover {
-    box-shadow: 0 0 10px 0 gainsboro;
+    box-shadow: 0 0 10px 0 rgb(223, 225, 229);
     border-radius: 40px;
     cursor: pointer;
 }
@@ -72,12 +75,12 @@ section {
     justify-content: space-between;
     width: 600px;
     height: 38px;
-    border: 1px solid gainsboro;
+    border: 1px solid rgb(223, 225, 229);
     border-radius: 20px;
 }
 
 .searchbar-container:hover {
-    box-shadow: 0 0 10px 0 gainsboro;
+    box-shadow: 0 0 10px 0 rgb(223, 225, 229);
 }
 
 .searchbar-container > input {
@@ -109,7 +112,7 @@ button {
 
 button:hover {
     cursor: pointer;
-    box-shadow: 0 0 10px 0 gainsboro;
+    box-shadow: 0 0 10px 0 rgb(223, 225, 229);
 }
 
 .english {
@@ -123,6 +126,11 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100vw;
+    color: rgb(112, 117, 122);
+}
+
+.color {
+    color: rgb(112, 117, 122);
 }
 
 #footer-left {
@@ -141,12 +149,12 @@ footer {
 
 #footer-top {
     display: flex;
-    border-bottom: 1px solid gainsboro;
+    border-bottom: 1px solid rgb(218, 220, 224);
     padding-left: 16px;
 }
 
 @media (max-width: 630px) {
-    #footer {
+    #footer-container {
         flex-direction: column;
     }
 
@@ -163,11 +171,11 @@ footer {
     }
 
     .searchbar-container {
-        width: 95vw;
+        width: 100vw;
     }
 }
 
-@media (max-height: 522px) {
+@media (max-height: 570px) {
 
     body {
         overflow-x: hidden;
